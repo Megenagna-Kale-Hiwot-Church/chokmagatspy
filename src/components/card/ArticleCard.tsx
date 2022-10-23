@@ -10,8 +10,8 @@ type ArticleCardProps = {
 }
 
 
-const ArticleCard = (props:ArticleCardProps) => {
-  
+const ArticleCard = (props:any) => {
+ 
     return (
         <>
               <div className="bg-white    border hidden sm:flex flex-col mx-10 mt-5">
